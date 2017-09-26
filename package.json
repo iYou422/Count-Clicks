@@ -1,7 +1,7 @@
 {
   "name": "beginner-app",
   "version": "1.0.0",
-  "description": "learnyoumongo excerise",
+  "description": "Clementine.js practice",
   "main": "server.js",
   "dependencies": {
     "express": "^4.15.4",
@@ -9,16 +9,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iYou422/learnyoumongo.git"
+    "url": "git+https://github.com/iYou422/Count-Clicks.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iYou422/learnyoumongo/issues"
+    "url": "https://github.com/iYou422/Count-Clicks/issues"
   },
-  "homepage": "https://github.com/iYou422/learnyoumongo#readme"
+  "homepage": "https://github.com/iYou422/Count-Clicks#readme"
 }
