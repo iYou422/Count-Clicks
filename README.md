@@ -1,2 +1,0 @@
-# learnyoumongo
-learnyoumongo excerise

@@ -1,0 +1,24 @@
+{
+  "name": "beginner-app",
+  "version": "1.0.0",
+  "description": "learnyoumongo excerise",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iYou422/learnyoumongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iYou422/learnyoumongo/issues"
+  },
+  "homepage": "https://github.com/iYou422/learnyoumongo#readme"
+}

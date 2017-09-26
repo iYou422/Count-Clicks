@@ -1,0 +1,22 @@
+'use strict'
+var express = require('express'),
+  routes = require('./app/routes/index.js'),
+  mongo = require('mongodb').MongoClient;
+
+var app = express();
+
+mongo.connect('mongodb://0.0.0.0:27017/chococlicks', function(err, db) {
+  if (err) 
+    throw new Error('Database failed to connect!');
+  else 
+    console.log('MongoDB sucessfully connected on port 27017');
+
+  app.use('/public', express.static(process.cwd() + '/public'));
+  app.use('/controllers', express.static(process.cwd() + '/app/controllers'));
+
+  routes(app, db);
+
+  app.listen(3000, '0.0.0.0', function() {
+    console.log('Listening on port 3000...');
+  });
+})
